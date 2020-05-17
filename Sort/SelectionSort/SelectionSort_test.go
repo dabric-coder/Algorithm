@@ -23,4 +23,8 @@ func TestSelectionSort2(t *testing.T) {
 	a := utils.StringSlice(arr)
 	SelectionSort(a)
 	fmt.Println(a)
+
+	arr1 := []int{5,3,4,0,6}
+	SelectSortX(arr1)
+	fmt.Println(arr1)
 }
